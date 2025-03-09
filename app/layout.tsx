@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers";
+import type { Metadata } from "next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hossein Vahedi",
-  description: "Hossein Vahedi's personal website. Feel free to book a meeting with me.",
+  description: "Hossein Vahedi's personal website. Here, you can find my projects, certifications, and more. You can also book a meeting with me.",
 };
 
 export default function RootLayout({
